@@ -27,10 +27,6 @@
             box-sizing: border-box
         }
 
-        html {
-            height: 100%
-        }
-
         body {
             width: 21cm;
             height: 100%;
@@ -412,10 +408,10 @@
 
         body {
             margin: auto !important;
+            font-size: 100%;
             background-color: #0093E9;
             background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
-
-            font-size: 100%;
+            background-repeat: no-repeat;
         }
         
 
@@ -428,7 +424,7 @@
 
 <body>
 
-    <div class="card pb-5 mt-2 shadow">
+    <div class="card pb-5 mb-3 mt-2 shadow">
 
         <section class="sections">
 
@@ -483,7 +479,9 @@
                                 Telefoonnummer
                             </div>
                             <div class="section--heading">
-                                <h3>06 20458839</h3>
+                                <a href="tel:0620458839"><h3>06 20458839</h3></a>
+                                	
+
                             </div>
                         </div>
                     </li>
@@ -494,7 +492,7 @@
                                 E-mailadres
                             </div>
                             <div class="section--heading">
-                                <h3>denzirving@gmail.com</h3>
+                                <a href="mailto:denzirving@gmail.com"><h3>denzirving@gmail.com</h3></a>
                             </div>
                         </div>
                     </li>
